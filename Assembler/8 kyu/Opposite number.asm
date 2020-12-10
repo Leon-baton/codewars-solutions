@@ -1,7 +1,6 @@
-SECTION .text
-
 global opposite
 
-opposite:
-  imul rax, rdi, -1
-  ret
+SECTION .text
+    opposite:
+        imul rax, rdi, -1
+        ret
